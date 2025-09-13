@@ -4,7 +4,11 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": [],
+    //aqui le cambie
+    "target": "ES2022",
+    "useDefineForClassFields": false
+    //hasta aqui
   },
   "files": [
     "src/main.ts"

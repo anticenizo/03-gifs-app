@@ -4,6 +4,7 @@ import { SideMenuComponent } from '../../components/side-menu/side-menu.componen
 
 
 @Component({
+  standalone: true,
   selector: 'app-dashboard-page',
   imports: [RouterOutlet, SideMenuComponent],
   templateUrl: './dashboard-page.component.html',
